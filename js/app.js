@@ -2,9 +2,9 @@ const ENDPOINT = 'https://api.nasa.gov/planetary/apod';
 const API_KEY = 'op0SyWUyi2mVWlPhnVhaqXWDS9Js8Yd2bLeSVvQ4';
 
 $(document).ready(function() {
-    if (window.location.pathname == '/') {
+    if (window.location.pathname == '/space-wonders/index.html') {
         loadImage();
-    } else if (window.location.pathname == '/random.html') {
+    } else if (window.location.pathname == '/space-wonders/random.html') {
         loadRandomImage();
     }
 });
